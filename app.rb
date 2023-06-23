@@ -3,6 +3,6 @@ require 'anystyle'
 
 get '/parse' do
   citation = params[:citation]
-  result = Anystyle.parse citation
+  result = AnyStyle.parse citation
   result.to_json
 end
