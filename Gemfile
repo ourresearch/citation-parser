@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
 gem 'sinatra'
-gem 'anystyle-parser'
+gem 'anystyle'
 gem 'puma'
 gem 'rexml', '~> 3.2.4'
