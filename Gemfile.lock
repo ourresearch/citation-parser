@@ -1,26 +1,24 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    anystyle (1.4.2)
-      anystyle-data (~> 1.3)
-      bibtex-ruby (~> 6.0)
-      namae (~> 1.0)
-      wapiti (~> 2.1)
-    anystyle-data (1.3.0)
-    bibtex-ruby (6.0.0)
+    anystyle-parser (0.8.2)
+      bibtex-ruby (~> 4.0)
+      builder (>= 3.0, < 4.0)
+      namae (~> 0.9)
+      wapiti (~> 0.1)
+    bibtex-ruby (4.4.7)
       latex-decode (~> 0.0)
     builder (3.2.4)
     latex-decode (0.4.0)
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
-    namae (1.1.1)
+    namae (0.11.3)
     nio4r (2.5.9)
     puma (6.3.0)
       nio4r (~> 2.0)
     rack (2.2.7)
     rack-protection (3.0.6)
       rack
-    rexml (3.2.5)
     ruby2_keywords (0.0.5)
     sinatra (3.0.6)
       mustermann (~> 3.0)
@@ -28,15 +26,13 @@ GEM
       rack-protection (= 3.0.6)
       tilt (~> 2.0)
     tilt (2.2.0)
-    wapiti (2.1.0)
-      builder (~> 3.2)
-      rexml (~> 3.0)
+    wapiti (0.1.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  anystyle
+  anystyle-parser
   puma
   sinatra
 

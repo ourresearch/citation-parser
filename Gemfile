@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 gem 'sinatra'
-gem 'anystyle'
+gem 'anystyle-parser'
 gem 'puma'

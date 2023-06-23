@@ -1,5 +1,5 @@
 require 'sinatra'
-require 'anystyle'
+require 'anystyle/parser'
 
 get '/parse' do
   citation = params[:citation]
