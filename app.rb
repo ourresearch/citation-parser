@@ -1,8 +1,8 @@
 require 'sinatra'
 require 'anystyle'
 
-post '/parse' do
-  data = params[:data]
-  result = Anystyle.parse data
+get '/parse' do
+  citation = params[:citation]
+  result = Anystyle.parse citation
   result.to_json
 end
